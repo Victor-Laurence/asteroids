@@ -1,12 +1,11 @@
 import pygame # type: ignore
-import random
 from constants import *
 from circleshape import CircleShape
 
-# Asteroid class
-class Asteroid(CircleShape):
-    def __init__(self, x, y, radius):
-        super().__init__(x, y, radius)
+# Shot class
+class Shot(CircleShape):
+    def __init__(self, x, y):
+        super().__init__(x, y, SHOT_RADIUS)
 
     def draw(self, screen):
         #circle(surface, color, center, radius, width=0)
