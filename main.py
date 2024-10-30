@@ -14,14 +14,17 @@ def main():
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
 
     while True:
+        #handle the quit event
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
-            
+
+        #updating objects
+        player.update(dt)
+
+        #rendering
         screen.fill("black")
-
         player.draw(screen)
-
         pygame.display.flip()        
 
         # limit the framerate to 60 FPS
