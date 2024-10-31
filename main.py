@@ -1,5 +1,5 @@
 import sys
-import pygame # type: ignore
+import pygame
 from constants import *
 from player import Player
 from shot import Shot
