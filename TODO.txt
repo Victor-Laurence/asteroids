@@ -1,0 +1,14 @@
+Make the objects wrap around the screen instead of disappearing
+Add acceleration to the player movement
+Add a temporary shield when pressind 's', replacing the reverse
+
+Implement multiple lives and respawning
+Show death message and ability to play again
+Add a scoring system
+Score tracking from game to game
+
+Make the asteroids lumpy instead of perfectly round
+Make the ship have a triangular hit box instead of a circular one
+Add an explosion effect for the asteroids
+
+Add a background image
